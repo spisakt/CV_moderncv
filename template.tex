@@ -1,6 +1,9 @@
 \documentclass[12pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 \usepackage[scale=0.8]{geometry}
+\addtolength{\topmargin}{-0.5cm}
+\addtolength{\textheight}{1cm}
+
 \recomputelengths 
 
 \moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
@@ -10,9 +13,16 @@
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 
 \usepackage[utf8]{inputenc}
-\usepackage[scale=.75]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}
 %\setlength{\makecvtitlenamewidth}{10cm}
+
+% Arial
+\usepackage{fontspec}
+\setmainfont{Arial}
+
+\hyphenation{Eindhoven}
+\hyphenation{Essen}
+\hyphenation{Imaging}
 
 \name{\vspace*{1cm}\color{pniblue}Tamas}{Spisak}
 \title{\small Institute for Artificial Intelligence in Medicine \newline
